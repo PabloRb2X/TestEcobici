@@ -81,12 +81,14 @@ class MapController: UIViewController, GMSMapViewDelegate, MapDelegate {
         
         return true
     }
-    
+
+    /*
     public func didTapMyLocationButton(for mapView: GMSMapView) -> Bool {
         print("tap en mylocationbutton")
         
         return true
     }
+    */
     
     public func mapView(_ mapView: GMSMapView, didTap overlay: GMSOverlay) {
         print("tap en el mapa")
