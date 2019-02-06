@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		694BE1AC1F59E1068EC00353 /* Pods_EcobiciTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD1D1867DF1CAFC6A2478D0 /* Pods_EcobiciTests.framework */; };
+		789CD06782F96E4AF1196793 /* Pods_EcobiciUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A89F67D3FE3FCBDEEB51F7 /* Pods_EcobiciUITests.framework */; };
+		9A8C1CB0220152D100CEB6E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CAF220152D000CEB6E6 /* AppDelegate.swift */; };
+		9A8C1CB2220152D100CEB6E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CB1220152D100CEB6E6 /* ViewController.swift */; };
+		9A8C1CB5220152D100CEB6E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8C1CB3220152D100CEB6E6 /* Main.storyboard */; };
+		9A8C1CB8220152D100CEB6E6 /* Ecobici.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CB6220152D100CEB6E6 /* Ecobici.xcdatamodeld */; };
+		9A8C1CBA2201530C00CEB6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8C1CB92201530C00CEB6E6 /* Assets.xcassets */; };
+		9A8C1CBD2201530C00CEB6E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8C1CBB2201530C00CEB6E6 /* LaunchScreen.storyboard */; };
+		9A8C1CC82201530E00CEB6E6 /* EcobiciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CC72201530E00CEB6E6 /* EcobiciTests.swift */; };
+		9A8C1CD32201530E00CEB6E6 /* EcobiciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CD22201530E00CEB6E6 /* EcobiciUITests.swift */; };
+		9A8C1CE622029F7000CEB6E6 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CE522029F7000CEB6E6 /* MapController.swift */; };
+		9A8C1CE722029F7000CEB6E6 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CE522029F7000CEB6E6 /* MapController.swift */; };
+		9A8C1CE822029F7000CEB6E6 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CE522029F7000CEB6E6 /* MapController.swift */; };
+		9A8C1CEA22029F9300CEB6E6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CE922029F9300CEB6E6 /* MapView.swift */; };
+		9A8C1CEE22029FA900CEB6E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CED22029FA900CEB6E6 /* Extensions.swift */; };
+		9A8C1CEF22029FA900CEB6E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CED22029FA900CEB6E6 /* Extensions.swift */; };
+		9A8C1CF022029FA900CEB6E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CED22029FA900CEB6E6 /* Extensions.swift */; };
+		9A8C1CF222029FBD00CEB6E6 /* GeneralFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF122029FBD00CEB6E6 /* GeneralFunctions.swift */; };
+		9A8C1CF322029FBD00CEB6E6 /* GeneralFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF122029FBD00CEB6E6 /* GeneralFunctions.swift */; };
+		9A8C1CF422029FBD00CEB6E6 /* GeneralFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF122029FBD00CEB6E6 /* GeneralFunctions.swift */; };
+		9A8C1CF622029FF500CEB6E6 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF522029FF500CEB6E6 /* ServiceManager.swift */; };
+		9A8C1CF722029FF500CEB6E6 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF522029FF500CEB6E6 /* ServiceManager.swift */; };
+		9A8C1CF822029FF500CEB6E6 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF522029FF500CEB6E6 /* ServiceManager.swift */; };
+		9A8C1CFA2203F3FB00CEB6E6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF92203F3FA00CEB6E6 /* HomeView.swift */; };
+		9A8C1CFB2203F3FB00CEB6E6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF92203F3FA00CEB6E6 /* HomeView.swift */; };
+		9A8C1CFC2203F3FB00CEB6E6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CF92203F3FA00CEB6E6 /* HomeView.swift */; };
+		9A8C1CFE2203F47100CEB6E6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CFD2203F47100CEB6E6 /* HomeController.swift */; };
+		9A8C1CFF2203F47100CEB6E6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CFD2203F47100CEB6E6 /* HomeController.swift */; };
+		9A8C1D002203F47100CEB6E6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1CFD2203F47100CEB6E6 /* HomeController.swift */; };
+		9A8C1D022203F56F00CEB6E6 /* StationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D012203F56F00CEB6E6 /* StationsModel.swift */; };
+		9A8C1D032203F56F00CEB6E6 /* StationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D012203F56F00CEB6E6 /* StationsModel.swift */; };
+		9A8C1D042203F56F00CEB6E6 /* StationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D012203F56F00CEB6E6 /* StationsModel.swift */; };
+		9A8C1D062203F5E400CEB6E6 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D052203F5E400CEB6E6 /* TokenModel.swift */; };
+		9A8C1D072203F5E400CEB6E6 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D052203F5E400CEB6E6 /* TokenModel.swift */; };
+		9A8C1D082203F5E400CEB6E6 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D052203F5E400CEB6E6 /* TokenModel.swift */; };
+		9A8C1D0A2203FADA00CEB6E6 /* TimerToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D092203FADA00CEB6E6 /* TimerToken.swift */; };
+		9A8C1D0B2203FADA00CEB6E6 /* TimerToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D092203FADA00CEB6E6 /* TimerToken.swift */; };
+		9A8C1D0C2203FADA00CEB6E6 /* TimerToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C1D092203FADA00CEB6E6 /* TimerToken.swift */; };
+		F900F4BB4EDE51A72A8A9B6D /* Pods_Ecobici.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054E291F6F4249E645AEBA61 /* Pods_Ecobici.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8C1CC42201530E00CEB6E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8C1CA4220152CF00CEB6E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8C1CAB220152D000CEB6E6;
+			remoteInfo = Ecobici;
+		};
+		9A8C1CCF2201530E00CEB6E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8C1CA4220152CF00CEB6E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8C1CAB220152D000CEB6E6;
+			remoteInfo = Ecobici;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054E291F6F4249E645AEBA61 /* Pods_Ecobici.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecobici.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		060A40B6AA1D74821153D2D9 /* Pods-EcobiciUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcobiciUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcobiciUITests/Pods-EcobiciUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6593A0F95A1E4B4407C382C1 /* Pods-EcobiciTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcobiciTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcobiciTests/Pods-EcobiciTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD1D1867DF1CAFC6A2478D0 /* Pods_EcobiciTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcobiciTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A19211279421F339B86B59E /* Pods-Ecobici.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecobici.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ecobici/Pods-Ecobici.debug.xcconfig"; sourceTree = "<group>"; };
+		8E7DD03754CD5C6DE9A3D4E9 /* Pods-EcobiciUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcobiciUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcobiciUITests/Pods-EcobiciUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A8C1CAC220152D000CEB6E6 /* Ecobici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecobici.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8C1CAF220152D000CEB6E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A8C1CB1220152D100CEB6E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A8C1CB4220152D100CEB6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A8C1CB7220152D100CEB6E6 /* Ecobici.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ecobici.xcdatamodel; sourceTree = "<group>"; };
+		9A8C1CB92201530C00CEB6E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A8C1CBC2201530C00CEB6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A8C1CBE2201530C00CEB6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8C1CC32201530E00CEB6E6 /* EcobiciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcobiciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8C1CC72201530E00CEB6E6 /* EcobiciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcobiciTests.swift; sourceTree = "<group>"; };
+		9A8C1CC92201530E00CEB6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8C1CCE2201530E00CEB6E6 /* EcobiciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcobiciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8C1CD22201530E00CEB6E6 /* EcobiciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcobiciUITests.swift; sourceTree = "<group>"; };
+		9A8C1CD42201530E00CEB6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8C1CE522029F7000CEB6E6 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		9A8C1CE922029F9300CEB6E6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9A8C1CED22029FA900CEB6E6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9A8C1CF122029FBD00CEB6E6 /* GeneralFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFunctions.swift; sourceTree = "<group>"; };
+		9A8C1CF522029FF500CEB6E6 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		9A8C1CF92203F3FA00CEB6E6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9A8C1CFD2203F47100CEB6E6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		9A8C1D012203F56F00CEB6E6 /* StationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsModel.swift; sourceTree = "<group>"; };
+		9A8C1D052203F5E400CEB6E6 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		9A8C1D092203FADA00CEB6E6 /* TimerToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerToken.swift; sourceTree = "<group>"; };
+		A3A89F67D3FE3FCBDEEB51F7 /* Pods_EcobiciUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcobiciUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F5D7E7ECE55B2E67DE35E4 /* Pods-Ecobici.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecobici.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ecobici/Pods-Ecobici.release.xcconfig"; sourceTree = "<group>"; };
+		E8B374979CAA0A4F491DE884 /* Pods-EcobiciTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcobiciTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcobiciTests/Pods-EcobiciTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8C1CA9220152D000CEB6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F900F4BB4EDE51A72A8A9B6D /* Pods_Ecobici.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8C1CC02201530E00CEB6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694BE1AC1F59E1068EC00353 /* Pods_EcobiciTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8C1CCB2201530E00CEB6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789CD06782F96E4AF1196793 /* Pods_EcobiciUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F640BF7A0A89CCE955C34D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A19211279421F339B86B59E /* Pods-Ecobici.debug.xcconfig */,
+				C1F5D7E7ECE55B2E67DE35E4 /* Pods-Ecobici.release.xcconfig */,
+				6593A0F95A1E4B4407C382C1 /* Pods-EcobiciTests.debug.xcconfig */,
+				E8B374979CAA0A4F491DE884 /* Pods-EcobiciTests.release.xcconfig */,
+				8E7DD03754CD5C6DE9A3D4E9 /* Pods-EcobiciUITests.debug.xcconfig */,
+				060A40B6AA1D74821153D2D9 /* Pods-EcobiciUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2370BBE1D7193501F683CE4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054E291F6F4249E645AEBA61 /* Pods_Ecobici.framework */,
+				7CD1D1867DF1CAFC6A2478D0 /* Pods_EcobiciTests.framework */,
+				A3A89F67D3FE3FCBDEEB51F7 /* Pods_EcobiciUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A8C1CA3220152CF00CEB6E6 = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CAE220152D000CEB6E6 /* Ecobici */,
+				9A8C1CC62201530E00CEB6E6 /* EcobiciTests */,
+				9A8C1CD12201530E00CEB6E6 /* EcobiciUITests */,
+				9A8C1CAD220152D000CEB6E6 /* Products */,
+				1F640BF7A0A89CCE955C34D1 /* Pods */,
+				2370BBE1D7193501F683CE4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8C1CAD220152D000CEB6E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CAC220152D000CEB6E6 /* Ecobici.app */,
+				9A8C1CC32201530E00CEB6E6 /* EcobiciTests.xctest */,
+				9A8C1CCE2201530E00CEB6E6 /* EcobiciUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8C1CAE220152D000CEB6E6 /* Ecobici */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CE422029DB100CEB6E6 /* Services */,
+				9A8C1CE322029DA400CEB6E6 /* Utils */,
+				9A8C1CE222029D9C00CEB6E6 /* Controller */,
+				9A8C1CE122029D8E00CEB6E6 /* View */,
+				9A8C1CE022029D8600CEB6E6 /* Model */,
+				9A8C1CAF220152D000CEB6E6 /* AppDelegate.swift */,
+				9A8C1CB1220152D100CEB6E6 /* ViewController.swift */,
+				9A8C1CB3220152D100CEB6E6 /* Main.storyboard */,
+				9A8C1CB92201530C00CEB6E6 /* Assets.xcassets */,
+				9A8C1CBB2201530C00CEB6E6 /* LaunchScreen.storyboard */,
+				9A8C1CBE2201530C00CEB6E6 /* Info.plist */,
+				9A8C1CB6220152D100CEB6E6 /* Ecobici.xcdatamodeld */,
+			);
+			path = Ecobici;
+			sourceTree = "<group>";
+		};
+		9A8C1CC62201530E00CEB6E6 /* EcobiciTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CC72201530E00CEB6E6 /* EcobiciTests.swift */,
+				9A8C1CC92201530E00CEB6E6 /* Info.plist */,
+			);
+			path = EcobiciTests;
+			sourceTree = "<group>";
+		};
+		9A8C1CD12201530E00CEB6E6 /* EcobiciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CD22201530E00CEB6E6 /* EcobiciUITests.swift */,
+				9A8C1CD42201530E00CEB6E6 /* Info.plist */,
+			);
+			path = EcobiciUITests;
+			sourceTree = "<group>";
+		};
+		9A8C1CE022029D8600CEB6E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1D012203F56F00CEB6E6 /* StationsModel.swift */,
+				9A8C1D052203F5E400CEB6E6 /* TokenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A8C1CE122029D8E00CEB6E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CE922029F9300CEB6E6 /* MapView.swift */,
+				9A8C1CF92203F3FA00CEB6E6 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A8C1CE222029D9C00CEB6E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CE522029F7000CEB6E6 /* MapController.swift */,
+				9A8C1CFD2203F47100CEB6E6 /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A8C1CE322029DA400CEB6E6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CED22029FA900CEB6E6 /* Extensions.swift */,
+				9A8C1CF122029FBD00CEB6E6 /* GeneralFunctions.swift */,
+				9A8C1D092203FADA00CEB6E6 /* TimerToken.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9A8C1CE422029DB100CEB6E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C1CF522029FF500CEB6E6 /* ServiceManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A8C1CAB220152D000CEB6E6 /* Ecobici */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8C1CD72201530E00CEB6E6 /* Build configuration list for PBXNativeTarget "Ecobici" */;
+			buildPhases = (
+				3F4D5250E74F0FD3471476A1 /* [CP] Check Pods Manifest.lock */,
+				9A8C1CA8220152D000CEB6E6 /* Sources */,
+				9A8C1CA9220152D000CEB6E6 /* Frameworks */,
+				9A8C1CAA220152D000CEB6E6 /* Resources */,
+				2DF06EFF54AB2E3B87D16BF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecobici;
+			productName = Ecobici;
+			productReference = 9A8C1CAC220152D000CEB6E6 /* Ecobici.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8C1CC22201530E00CEB6E6 /* EcobiciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8C1CDA2201530E00CEB6E6 /* Build configuration list for PBXNativeTarget "EcobiciTests" */;
+			buildPhases = (
+				8BA18225B05D81A87380647B /* [CP] Check Pods Manifest.lock */,
+				9A8C1CBF2201530E00CEB6E6 /* Sources */,
+				9A8C1CC02201530E00CEB6E6 /* Frameworks */,
+				9A8C1CC12201530E00CEB6E6 /* Resources */,
+				F7B5378D455C9F29D4943257 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8C1CC52201530E00CEB6E6 /* PBXTargetDependency */,
+			);
+			name = EcobiciTests;
+			productName = EcobiciTests;
+			productReference = 9A8C1CC32201530E00CEB6E6 /* EcobiciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A8C1CCD2201530E00CEB6E6 /* EcobiciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8C1CDD2201530E00CEB6E6 /* Build configuration list for PBXNativeTarget "EcobiciUITests" */;
+			buildPhases = (
+				B90CAC038E6794983522097D /* [CP] Check Pods Manifest.lock */,
+				9A8C1CCA2201530E00CEB6E6 /* Sources */,
+				9A8C1CCB2201530E00CEB6E6 /* Frameworks */,
+				9A8C1CCC2201530E00CEB6E6 /* Resources */,
+				908ECEEB8A0B82A29CA207E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8C1CD02201530E00CEB6E6 /* PBXTargetDependency */,
+			);
+			name = EcobiciUITests;
+			productName = EcobiciUITests;
+			productReference = 9A8C1CCE2201530E00CEB6E6 /* EcobiciUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8C1CA4220152CF00CEB6E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Pablo Ramirez";
+				TargetAttributes = {
+					9A8C1CAB220152D000CEB6E6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9A8C1CC22201530E00CEB6E6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9A8C1CAB220152D000CEB6E6;
+					};
+					9A8C1CCD2201530E00CEB6E6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9A8C1CAB220152D000CEB6E6;
+					};
+				};
+			};
+			buildConfigurationList = 9A8C1CA7220152CF00CEB6E6 /* Build configuration list for PBXProject "Ecobici" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8C1CA3220152CF00CEB6E6;
+			productRefGroup = 9A8C1CAD220152D000CEB6E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8C1CAB220152D000CEB6E6 /* Ecobici */,
+				9A8C1CC22201530E00CEB6E6 /* EcobiciTests */,
+				9A8C1CCD2201530E00CEB6E6 /* EcobiciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A8C1CAA220152D000CEB6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8C1CBD2201530C00CEB6E6 /* LaunchScreen.storyboard in Resources */,
+				9A8C1CBA2201530C00CEB6E6 /* Assets.xcassets in Resources */,
+				9A8C1CB5220152D100CEB6E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8C1CC12201530E00CEB6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8C1CCC2201530E00CEB6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF06EFF54AB2E3B87D16BF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ecobici/Pods-Ecobici-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ecobici/Pods-Ecobici-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4D5250E74F0FD3471476A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecobici-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA18225B05D81A87380647B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcobiciTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908ECEEB8A0B82A29CA207E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EcobiciUITests/Pods-EcobiciUITests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcobiciUITests/Pods-EcobiciUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90CAC038E6794983522097D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcobiciUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B5378D455C9F29D4943257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EcobiciTests/Pods-EcobiciTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcobiciTests/Pods-EcobiciTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8C1CA8220152D000CEB6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8C1D022203F56F00CEB6E6 /* StationsModel.swift in Sources */,
+				9A8C1D062203F5E400CEB6E6 /* TokenModel.swift in Sources */,
+				9A8C1CFA2203F3FB00CEB6E6 /* HomeView.swift in Sources */,
+				9A8C1CE622029F7000CEB6E6 /* MapController.swift in Sources */,
+				9A8C1D0A2203FADA00CEB6E6 /* TimerToken.swift in Sources */,
+				9A8C1CEE22029FA900CEB6E6 /* Extensions.swift in Sources */,
+				9A8C1CB8220152D100CEB6E6 /* Ecobici.xcdatamodeld in Sources */,
+				9A8C1CFE2203F47100CEB6E6 /* HomeController.swift in Sources */,
+				9A8C1CF622029FF500CEB6E6 /* ServiceManager.swift in Sources */,
+				9A8C1CEA22029F9300CEB6E6 /* MapView.swift in Sources */,
+				9A8C1CB2220152D100CEB6E6 /* ViewController.swift in Sources */,
+				9A8C1CB0220152D100CEB6E6 /* AppDelegate.swift in Sources */,
+				9A8C1CF222029FBD00CEB6E6 /* GeneralFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8C1CBF2201530E00CEB6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8C1CE722029F7000CEB6E6 /* MapController.swift in Sources */,
+				9A8C1D072203F5E400CEB6E6 /* TokenModel.swift in Sources */,
+				9A8C1CF322029FBD00CEB6E6 /* GeneralFunctions.swift in Sources */,
+				9A8C1D0B2203FADA00CEB6E6 /* TimerToken.swift in Sources */,
+				9A8C1CFF2203F47100CEB6E6 /* HomeController.swift in Sources */,
+				9A8C1CC82201530E00CEB6E6 /* EcobiciTests.swift in Sources */,
+				9A8C1D032203F56F00CEB6E6 /* StationsModel.swift in Sources */,
+				9A8C1CFB2203F3FB00CEB6E6 /* HomeView.swift in Sources */,
+				9A8C1CEF22029FA900CEB6E6 /* Extensions.swift in Sources */,
+				9A8C1CF722029FF500CEB6E6 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8C1CCA2201530E00CEB6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8C1CE822029F7000CEB6E6 /* MapController.swift in Sources */,
+				9A8C1D082203F5E400CEB6E6 /* TokenModel.swift in Sources */,
+				9A8C1CF422029FBD00CEB6E6 /* GeneralFunctions.swift in Sources */,
+				9A8C1D0C2203FADA00CEB6E6 /* TimerToken.swift in Sources */,
+				9A8C1D002203F47100CEB6E6 /* HomeController.swift in Sources */,
+				9A8C1CD32201530E00CEB6E6 /* EcobiciUITests.swift in Sources */,
+				9A8C1D042203F56F00CEB6E6 /* StationsModel.swift in Sources */,
+				9A8C1CFC2203F3FB00CEB6E6 /* HomeView.swift in Sources */,
+				9A8C1CF022029FA900CEB6E6 /* Extensions.swift in Sources */,
+				9A8C1CF822029FF500CEB6E6 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8C1CC52201530E00CEB6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8C1CAB220152D000CEB6E6 /* Ecobici */;
+			targetProxy = 9A8C1CC42201530E00CEB6E6 /* PBXContainerItemProxy */;
+		};
+		9A8C1CD02201530E00CEB6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8C1CAB220152D000CEB6E6 /* Ecobici */;
+			targetProxy = 9A8C1CCF2201530E00CEB6E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8C1CB3220152D100CEB6E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8C1CB4220152D100CEB6E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A8C1CBB2201530C00CEB6E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8C1CBC2201530C00CEB6E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A8C1CD52201530E00CEB6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A8C1CD62201530E00CEB6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A8C1CD82201530E00CEB6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A19211279421F339B86B59E /* Pods-Ecobici.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5662BT49LG;
+				INFOPLIST_FILE = Ecobici/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Ramirez.Ecobici";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A8C1CD92201530E00CEB6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F5D7E7ECE55B2E67DE35E4 /* Pods-Ecobici.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5662BT49LG;
+				INFOPLIST_FILE = Ecobici/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Ramirez.Ecobici";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A8C1CDB2201530E00CEB6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6593A0F95A1E4B4407C382C1 /* Pods-EcobiciTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5662BT49LG;
+				INFOPLIST_FILE = EcobiciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Ramirez.EcobiciTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecobici.app/Ecobici";
+			};
+			name = Debug;
+		};
+		9A8C1CDC2201530E00CEB6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B374979CAA0A4F491DE884 /* Pods-EcobiciTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5662BT49LG;
+				INFOPLIST_FILE = EcobiciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Ramirez.EcobiciTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecobici.app/Ecobici";
+			};
+			name = Release;
+		};
+		9A8C1CDE2201530E00CEB6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7DD03754CD5C6DE9A3D4E9 /* Pods-EcobiciUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5662BT49LG;
+				INFOPLIST_FILE = EcobiciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Ramirez.EcobiciUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecobici;
+			};
+			name = Debug;
+		};
+		9A8C1CDF2201530E00CEB6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060A40B6AA1D74821153D2D9 /* Pods-EcobiciUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5662BT49LG;
+				INFOPLIST_FILE = EcobiciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pablo-Ramirez.EcobiciUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecobici;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8C1CA7220152CF00CEB6E6 /* Build configuration list for PBXProject "Ecobici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8C1CD52201530E00CEB6E6 /* Debug */,
+				9A8C1CD62201530E00CEB6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8C1CD72201530E00CEB6E6 /* Build configuration list for PBXNativeTarget "Ecobici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8C1CD82201530E00CEB6E6 /* Debug */,
+				9A8C1CD92201530E00CEB6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8C1CDA2201530E00CEB6E6 /* Build configuration list for PBXNativeTarget "EcobiciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8C1CDB2201530E00CEB6E6 /* Debug */,
+				9A8C1CDC2201530E00CEB6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8C1CDD2201530E00CEB6E6 /* Build configuration list for PBXNativeTarget "EcobiciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8C1CDE2201530E00CEB6E6 /* Debug */,
+				9A8C1CDF2201530E00CEB6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A8C1CB6220152D100CEB6E6 /* Ecobici.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A8C1CB7220152D100CEB6E6 /* Ecobici.xcdatamodel */,
+			);
+			currentVersion = 9A8C1CB7220152D100CEB6E6 /* Ecobici.xcdatamodel */;
+			path = Ecobici.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A8C1CA4220152CF00CEB6E6 /* Project object */;
+}

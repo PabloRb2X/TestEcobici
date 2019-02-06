@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E6BF403BE144D70888057DA1764716C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		737BF1D811DB88EA543DF4EBA4721142 /* Pods-Ecobici-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E38DF6C9E78CBAAF6B8B069B61006 /* Pods-Ecobici-dummy.m */; };
+		A0D162397B50188BBF04FD7D0310941A /* Pods-Ecobici-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 252F1F4001863E3E4CFA487AC12395CF /* Pods-Ecobici-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35BD7F6957C613A8E59FEDCD5BCB8C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C63874E81E877980A7CFF494E7AE7E10 /* Pods-EcobiciUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F2C54DAE62A79A91C1AABDD6D63E73 /* Pods-EcobiciUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6CFD52FB1C00957250A76DB9162D29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D0E94538245E2283AEC0642EF836D90D /* Pods-EcobiciTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AB11D5859A916B99FD8B3ED8E12D8A /* Pods-EcobiciTests-dummy.m */; };
+		DAD23DE63DD1CCEBD92F46E86CA5AC09 /* Pods-EcobiciUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0F7828798CAA0BE403CD579A501FA5 /* Pods-EcobiciUITests-dummy.m */; };
+		DC948EB4E50EE5776F1803B72018A5A4 /* Pods-EcobiciTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B564AAC07D771F7364E63B7E898C7C4 /* Pods-EcobiciTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C732960A00DECDCC445A7C3BFDC4067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5634A03D99EB70BF3D22711B54FC2710;
+			remoteInfo = "Pods-Ecobici";
+		};
+		4D7AECFD39DD749727579F50B3C81DCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5634A03D99EB70BF3D22711B54FC2710;
+			remoteInfo = "Pods-Ecobici";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		0F42A6CF7C99083037EF8308C76D89D7 /* Pods-EcobiciUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EcobiciUITests.modulemap"; sourceTree = "<group>"; };
+		12035B0FE57F3C09B08C81637DD39FB0 /* Pods-Ecobici.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ecobici.release.xcconfig"; sourceTree = "<group>"; };
+		1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		202B4333870B0DE4103F12B04E69310D /* Pods-Ecobici.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ecobici.debug.xcconfig"; sourceTree = "<group>"; };
+		207C5B0817911C627FCEE48DD30C60ED /* Pods-EcobiciUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EcobiciUITests-resources.sh"; sourceTree = "<group>"; };
+		21EB79B3CA13461B6F018E3F26D196F5 /* Pods-EcobiciTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EcobiciTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		252F1F4001863E3E4CFA487AC12395CF /* Pods-Ecobici-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ecobici-umbrella.h"; sourceTree = "<group>"; };
+		2F6B0B4A8A1465E731AC87EC38722BE3 /* Pods_EcobiciTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EcobiciTests.framework; path = "Pods-EcobiciTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3308A077DE895E33F3D7EABB6655EA32 /* Pods_EcobiciUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EcobiciUITests.framework; path = "Pods-EcobiciUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F2C54DAE62A79A91C1AABDD6D63E73 /* Pods-EcobiciUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EcobiciUITests-umbrella.h"; sourceTree = "<group>"; };
+		3C54DBA7C9094730B57539A730DDC88B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620F401EB8067A9F391E95CCC8B6EE6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65346EDA1016A29A471F7E5FD390E984 /* Pods-EcobiciTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EcobiciTests.modulemap"; sourceTree = "<group>"; };
+		6569990AC3E332C57080C663EFC615A6 /* Pods-EcobiciUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EcobiciUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66AB11D5859A916B99FD8B3ED8E12D8A /* Pods-EcobiciTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EcobiciTests-dummy.m"; sourceTree = "<group>"; };
+		694E38DF6C9E78CBAAF6B8B069B61006 /* Pods-Ecobici-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ecobici-dummy.m"; sourceTree = "<group>"; };
+		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		7B564AAC07D771F7364E63B7E898C7C4 /* Pods-EcobiciTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EcobiciTests-umbrella.h"; sourceTree = "<group>"; };
+		7CB012AF3BF1E5F60B34799E442EF68A /* Pods-EcobiciUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EcobiciUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		854D95A2F7893A15F89820AF9761541B /* Pods-EcobiciTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EcobiciTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D3765926CA0E736A4E9124B40A781F3 /* Pods-Ecobici-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ecobici-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EC8CDE663640826FD03CF9AA08CF8C0 /* Pods-Ecobici-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ecobici-frameworks.sh"; sourceTree = "<group>"; };
+		91D65034E2E7B364F160E5A4C8502EF1 /* Pods-EcobiciUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EcobiciUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A90980EFFDDB6B6DDF4748E0F872D8 /* Pods-Ecobici.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ecobici.modulemap"; sourceTree = "<group>"; };
+		99A9BCD97C0A835D1C3085014CDAAFE3 /* Pods-EcobiciTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EcobiciTests-frameworks.sh"; sourceTree = "<group>"; };
+		9F27E57088438AF343F1342FF6E650D8 /* Pods-EcobiciTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EcobiciTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A8EAAA262A5EC50ED04D403678D4186E /* Pods-EcobiciTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EcobiciTests-resources.sh"; sourceTree = "<group>"; };
+		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B8F865FDB4C8BA246455006A3A0B1914 /* Pods-EcobiciTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EcobiciTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7DF2753E1192A6234632EA863875EFA /* Pods_Ecobici.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ecobici.framework; path = "Pods-Ecobici.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA071065D108A815DD6298FD64039F7F /* Pods-EcobiciUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EcobiciUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD0F7828798CAA0BE403CD579A501FA5 /* Pods-EcobiciUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EcobiciUITests-dummy.m"; sourceTree = "<group>"; };
+		DDE8EC6A9FB53A8A708571B5E35AC583 /* Pods-Ecobici-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ecobici-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEEB2C7054D2A89E8DAEED665E92D9CE /* Pods-EcobiciUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EcobiciUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7E191CF08E6807A66CCB9A80A344B38 /* Pods-Ecobici-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ecobici-resources.sh"; sourceTree = "<group>"; };
+		FC2A78DB9D6B360CC6E92C393D58FBF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E23E4C8FB3BE7693275885E727EA862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6BF403BE144D70888057DA1764716C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2E76F9A3E4E1770E152D74655C9596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35BD7F6957C613A8E59FEDCD5BCB8C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E24E3DC7D93E92B3E0D15A81403F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CFD52FB1C00957250A76DB9162D29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				475420FA59EFC8377CF994A338979247 /* Frameworks */,
+				09DB508F39D8BE758EA4A7B9047268E9 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		09DB508F39D8BE758EA4A7B9047268E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
+				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		2C33658E0E0DC0CB72B65C369BB44868 /* Pods-Ecobici */ = {
+			isa = PBXGroup;
+			children = (
+				620F401EB8067A9F391E95CCC8B6EE6E /* Info.plist */,
+				96A90980EFFDDB6B6DDF4748E0F872D8 /* Pods-Ecobici.modulemap */,
+				8D3765926CA0E736A4E9124B40A781F3 /* Pods-Ecobici-acknowledgements.markdown */,
+				DDE8EC6A9FB53A8A708571B5E35AC583 /* Pods-Ecobici-acknowledgements.plist */,
+				694E38DF6C9E78CBAAF6B8B069B61006 /* Pods-Ecobici-dummy.m */,
+				8EC8CDE663640826FD03CF9AA08CF8C0 /* Pods-Ecobici-frameworks.sh */,
+				E7E191CF08E6807A66CCB9A80A344B38 /* Pods-Ecobici-resources.sh */,
+				252F1F4001863E3E4CFA487AC12395CF /* Pods-Ecobici-umbrella.h */,
+				202B4333870B0DE4103F12B04E69310D /* Pods-Ecobici.debug.xcconfig */,
+				12035B0FE57F3C09B08C81637DD39FB0 /* Pods-Ecobici.release.xcconfig */,
+			);
+			name = "Pods-Ecobici";
+			path = "Target Support Files/Pods-Ecobici";
+			sourceTree = "<group>";
+		};
+		343584E22C57489C672A8E6F731CB43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
+				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48707450E57FC32672EDA5BA5109CFCE /* Pods-EcobiciTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C54DBA7C9094730B57539A730DDC88B /* Info.plist */,
+				65346EDA1016A29A471F7E5FD390E984 /* Pods-EcobiciTests.modulemap */,
+				21EB79B3CA13461B6F018E3F26D196F5 /* Pods-EcobiciTests-acknowledgements.markdown */,
+				9F27E57088438AF343F1342FF6E650D8 /* Pods-EcobiciTests-acknowledgements.plist */,
+				66AB11D5859A916B99FD8B3ED8E12D8A /* Pods-EcobiciTests-dummy.m */,
+				99A9BCD97C0A835D1C3085014CDAAFE3 /* Pods-EcobiciTests-frameworks.sh */,
+				A8EAAA262A5EC50ED04D403678D4186E /* Pods-EcobiciTests-resources.sh */,
+				7B564AAC07D771F7364E63B7E898C7C4 /* Pods-EcobiciTests-umbrella.h */,
+				854D95A2F7893A15F89820AF9761541B /* Pods-EcobiciTests.debug.xcconfig */,
+				B8F865FDB4C8BA246455006A3A0B1914 /* Pods-EcobiciTests.release.xcconfig */,
+			);
+			name = "Pods-EcobiciTests";
+			path = "Target Support Files/Pods-EcobiciTests";
+			sourceTree = "<group>";
+		};
+		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
+				343584E22C57489C672A8E6F731CB43A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B98B3953204524697733249B2CCED59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF2753E1192A6234632EA863875EFA /* Pods_Ecobici.framework */,
+				2F6B0B4A8A1465E731AC87EC38722BE3 /* Pods_EcobiciTests.framework */,
+				3308A077DE895E33F3D7EABB6655EA32 /* Pods_EcobiciUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				385FA015FFB9210F372AB1078B856AAB /* Pods */,
+				6B98B3953204524697733249B2CCED59 /* Products */,
+				F20CC9858DFA8665EB72B6A591A4BFE8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
+				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA08D565E510D984DEE410D699B1F0A3 /* Pods-EcobiciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A78DB9D6B360CC6E92C393D58FBF0 /* Info.plist */,
+				0F42A6CF7C99083037EF8308C76D89D7 /* Pods-EcobiciUITests.modulemap */,
+				DEEB2C7054D2A89E8DAEED665E92D9CE /* Pods-EcobiciUITests-acknowledgements.markdown */,
+				6569990AC3E332C57080C663EFC615A6 /* Pods-EcobiciUITests-acknowledgements.plist */,
+				DD0F7828798CAA0BE403CD579A501FA5 /* Pods-EcobiciUITests-dummy.m */,
+				91D65034E2E7B364F160E5A4C8502EF1 /* Pods-EcobiciUITests-frameworks.sh */,
+				207C5B0817911C627FCEE48DD30C60ED /* Pods-EcobiciUITests-resources.sh */,
+				38F2C54DAE62A79A91C1AABDD6D63E73 /* Pods-EcobiciUITests-umbrella.h */,
+				7CB012AF3BF1E5F60B34799E442EF68A /* Pods-EcobiciUITests.debug.xcconfig */,
+				DA071065D108A815DD6298FD64039F7F /* Pods-EcobiciUITests.release.xcconfig */,
+			);
+			name = "Pods-EcobiciUITests";
+			path = "Target Support Files/Pods-EcobiciUITests";
+			sourceTree = "<group>";
+		};
+		F20CC9858DFA8665EB72B6A591A4BFE8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C33658E0E0DC0CB72B65C369BB44868 /* Pods-Ecobici */,
+				48707450E57FC32672EDA5BA5109CFCE /* Pods-EcobiciTests */,
+				EA08D565E510D984DEE410D699B1F0A3 /* Pods-EcobiciUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9140EA18D4881716E277F1E9251EE94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D162397B50188BBF04FD7D0310941A /* Pods-Ecobici-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C7E202346D1014065F58F87FAE1F4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC948EB4E50EE5776F1803B72018A5A4 /* Pods-EcobiciTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C6C56C0093A419F0665329F4CEF0AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63874E81E877980A7CFF494E7AE7E10 /* Pods-EcobiciUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5634A03D99EB70BF3D22711B54FC2710 /* Pods-Ecobici */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701A64376AFB9B539CF618130E64BC50 /* Build configuration list for PBXNativeTarget "Pods-Ecobici" */;
+			buildPhases = (
+				D9140EA18D4881716E277F1E9251EE94 /* Headers */,
+				5254247466BC900192596DDE8519E0B8 /* Sources */,
+				A23E24E3DC7D93E92B3E0D15A81403F0 /* Frameworks */,
+				9C6956C7F241D6652A7233CA5B826222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Ecobici";
+			productName = "Pods-Ecobici";
+			productReference = D7DF2753E1192A6234632EA863875EFA /* Pods_Ecobici.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		574CA3441804E458623DA16FAE1BED3F /* Pods-EcobiciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4D8571D9A639F056152852CC422D93 /* Build configuration list for PBXNativeTarget "Pods-EcobiciTests" */;
+			buildPhases = (
+				E5C7E202346D1014065F58F87FAE1F4B /* Headers */,
+				D76FD96748FCBB1CB4CF26412F8433C9 /* Sources */,
+				3E23E4C8FB3BE7693275885E727EA862 /* Frameworks */,
+				205F8DD0ECA60A27258DF69A00DC4843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD81E7CC41D484A784C5C544E159A3B /* PBXTargetDependency */,
+			);
+			name = "Pods-EcobiciTests";
+			productName = "Pods-EcobiciTests";
+			productReference = 2F6B0B4A8A1465E731AC87EC38722BE3 /* Pods_EcobiciTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5E84D286B1514AE8960504D00F12576 /* Pods-EcobiciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13B5606B64EFE4ECAFFD2012B7355BC /* Build configuration list for PBXNativeTarget "Pods-EcobiciUITests" */;
+			buildPhases = (
+				E8C6C56C0093A419F0665329F4CEF0AD /* Headers */,
+				09E9882F47BBF1CB2C940560BA3E43CA /* Sources */,
+				5A2E76F9A3E4E1770E152D74655C9596 /* Frameworks */,
+				0BDB780020B5CED94D644E179C9F20B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443B34E473F35341F9D4B0CAA6524405 /* PBXTargetDependency */,
+			);
+			name = "Pods-EcobiciUITests";
+			productName = "Pods-EcobiciUITests";
+			productReference = 3308A077DE895E33F3D7EABB6655EA32 /* Pods_EcobiciUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6B98B3953204524697733249B2CCED59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5634A03D99EB70BF3D22711B54FC2710 /* Pods-Ecobici */,
+				574CA3441804E458623DA16FAE1BED3F /* Pods-EcobiciTests */,
+				C5E84D286B1514AE8960504D00F12576 /* Pods-EcobiciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BDB780020B5CED94D644E179C9F20B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205F8DD0ECA60A27258DF69A00DC4843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6956C7F241D6652A7233CA5B826222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E9882F47BBF1CB2C940560BA3E43CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD23DE63DD1CCEBD92F46E86CA5AC09 /* Pods-EcobiciUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5254247466BC900192596DDE8519E0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737BF1D811DB88EA543DF4EBA4721142 /* Pods-Ecobici-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76FD96748FCBB1CB4CF26412F8433C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E94538245E2283AEC0642EF836D90D /* Pods-EcobiciTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		443B34E473F35341F9D4B0CAA6524405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ecobici";
+			target = 5634A03D99EB70BF3D22711B54FC2710 /* Pods-Ecobici */;
+			targetProxy = 4D7AECFD39DD749727579F50B3C81DCF /* PBXContainerItemProxy */;
+		};
+		4FD81E7CC41D484A784C5C544E159A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ecobici";
+			target = 5634A03D99EB70BF3D22711B54FC2710 /* Pods-Ecobici */;
+			targetProxy = 2C732960A00DECDCC445A7C3BFDC4067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7246366C9AE3B6AE741D5579BB374559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12035B0FE57F3C09B08C81637DD39FB0 /* Pods-Ecobici.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ecobici/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ecobici/Pods-Ecobici.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82250B2042A5835E20999AB86FA8237A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB012AF3BF1E5F60B34799E442EF68A /* Pods-EcobiciUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EcobiciUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EcobiciUITests/Pods-EcobiciUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FB48CA5978ECF73AB4DD95BE0FA6F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202B4333870B0DE4103F12B04E69310D /* Pods-Ecobici.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ecobici/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ecobici/Pods-Ecobici.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4652D559A452A794B0542BFB1274C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA071065D108A815DD6298FD64039F7F /* Pods-EcobiciUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EcobiciUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EcobiciUITests/Pods-EcobiciUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD119A7CCA812599E840AF353BBD69BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854D95A2F7893A15F89820AF9761541B /* Pods-EcobiciTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EcobiciTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EcobiciTests/Pods-EcobiciTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7133D02F840ECB09DBDB94CFBDAA371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F865FDB4C8BA246455006A3A0B1914 /* Pods-EcobiciTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EcobiciTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EcobiciTests/Pods-EcobiciTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */,
+				B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701A64376AFB9B539CF618130E64BC50 /* Build configuration list for PBXNativeTarget "Pods-Ecobici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB48CA5978ECF73AB4DD95BE0FA6F70 /* Debug */,
+				7246366C9AE3B6AE741D5579BB374559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C13B5606B64EFE4ECAFFD2012B7355BC /* Build configuration list for PBXNativeTarget "Pods-EcobiciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82250B2042A5835E20999AB86FA8237A /* Debug */,
+				B4652D559A452A794B0542BFB1274C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4D8571D9A639F056152852CC422D93 /* Build configuration list for PBXNativeTarget "Pods-EcobiciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD119A7CCA812599E840AF353BBD69BE /* Debug */,
+				F7133D02F840ECB09DBDB94CFBDAA371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

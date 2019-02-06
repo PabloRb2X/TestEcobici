@@ -1,0 +1,6 @@
+framework module Pods_EcobiciUITests {
+  umbrella header "Pods-EcobiciUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
